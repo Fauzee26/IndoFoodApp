@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		393AB7B632F842C78C1AC0D4 /* Pods_IndoFoodApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F31F4D4E276FA43ECBF065D /* Pods_IndoFoodApp.framework */; };
+		A00222982010534A00482DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00222972010534A00482DD3 /* AppDelegate.swift */; };
+		A002229A2010534A00482DD3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00222992010534A00482DD3 /* FirstViewController.swift */; };
+		A002229C2010534A00482DD3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002229B2010534A00482DD3 /* SecondViewController.swift */; };
+		A002229F2010534A00482DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A002229D2010534A00482DD3 /* Main.storyboard */; };
+		A00222A12010534B00482DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A00222A02010534B00482DD3 /* Assets.xcassets */; };
+		A00222A42010534B00482DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00222A22010534B00482DD3 /* LaunchScreen.storyboard */; };
+		A00222AF2010534C00482DD3 /* IndoFoodAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00222AE2010534C00482DD3 /* IndoFoodAppTests.swift */; };
+		A00222BA2010534C00482DD3 /* IndoFoodAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00222B92010534C00482DD3 /* IndoFoodAppUITests.swift */; };
+		A00222C820107B7700482DD3 /* MakananTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00222C720107B7700482DD3 /* MakananTableViewCell.swift */; };
+		A00222CA20107B8500482DD3 /* MakananTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00222C920107B8500482DD3 /* MakananTableViewController.swift */; };
+		A00222CC20107C3500482DD3 /* ViewMakananViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00222CB20107C3500482DD3 /* ViewMakananViewController.swift */; };
+		A00222CE20107C3C00482DD3 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00222CD20107C3C00482DD3 /* AddViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00222AB2010534C00482DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A002228C2010534800482DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00222932010534800482DD3;
+			remoteInfo = IndoFoodApp;
+		};
+		A00222B62010534C00482DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A002228C2010534800482DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00222932010534800482DD3;
+			remoteInfo = IndoFoodApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035CEB88CFB18C5DEBC1442C /* Pods-IndoFoodApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoFoodApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndoFoodApp/Pods-IndoFoodApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0F31F4D4E276FA43ECBF065D /* Pods_IndoFoodApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoFoodApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00222942010534800482DD3 /* IndoFoodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoFoodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00222972010534A00482DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A00222992010534A00482DD3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A002229B2010534A00482DD3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A002229E2010534A00482DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A00222A02010534B00482DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A00222A32010534B00482DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00222A52010534C00482DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00222AA2010534C00482DD3 /* IndoFoodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoFoodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00222AE2010534C00482DD3 /* IndoFoodAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoFoodAppTests.swift; sourceTree = "<group>"; };
+		A00222B02010534C00482DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00222B52010534C00482DD3 /* IndoFoodAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndoFoodAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00222B92010534C00482DD3 /* IndoFoodAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndoFoodAppUITests.swift; sourceTree = "<group>"; };
+		A00222BB2010534C00482DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00222C720107B7700482DD3 /* MakananTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananTableViewCell.swift; sourceTree = "<group>"; };
+		A00222C920107B8500482DD3 /* MakananTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakananTableViewController.swift; sourceTree = "<group>"; };
+		A00222CB20107C3500482DD3 /* ViewMakananViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMakananViewController.swift; sourceTree = "<group>"; };
+		A00222CD20107C3C00482DD3 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		B78ADC3A6458F8A36605A536 /* Pods-IndoFoodApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoFoodApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndoFoodApp/Pods-IndoFoodApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00222912010534800482DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393AB7B632F842C78C1AC0D4 /* Pods_IndoFoodApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00222A72010534C00482DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00222B22010534C00482DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DA8FA927CD862CFF43EB875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F31F4D4E276FA43ECBF065D /* Pods_IndoFoodApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		949A71B546CF25773CA11422 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				035CEB88CFB18C5DEBC1442C /* Pods-IndoFoodApp.debug.xcconfig */,
+				B78ADC3A6458F8A36605A536 /* Pods-IndoFoodApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A002228B2010534800482DD3 = {
+			isa = PBXGroup;
+			children = (
+				A00222962010534800482DD3 /* IndoFoodApp */,
+				A00222AD2010534C00482DD3 /* IndoFoodAppTests */,
+				A00222B82010534C00482DD3 /* IndoFoodAppUITests */,
+				A00222952010534800482DD3 /* Products */,
+				949A71B546CF25773CA11422 /* Pods */,
+				4DA8FA927CD862CFF43EB875 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A00222952010534800482DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00222942010534800482DD3 /* IndoFoodApp.app */,
+				A00222AA2010534C00482DD3 /* IndoFoodAppTests.xctest */,
+				A00222B52010534C00482DD3 /* IndoFoodAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00222962010534800482DD3 /* IndoFoodApp */ = {
+			isa = PBXGroup;
+			children = (
+				A00222972010534A00482DD3 /* AppDelegate.swift */,
+				A00222992010534A00482DD3 /* FirstViewController.swift */,
+				A002229B2010534A00482DD3 /* SecondViewController.swift */,
+				A002229D2010534A00482DD3 /* Main.storyboard */,
+				A00222CB20107C3500482DD3 /* ViewMakananViewController.swift */,
+				A00222CD20107C3C00482DD3 /* AddViewController.swift */,
+				A00222A02010534B00482DD3 /* Assets.xcassets */,
+				A00222A22010534B00482DD3 /* LaunchScreen.storyboard */,
+				A00222A52010534C00482DD3 /* Info.plist */,
+				A00222C720107B7700482DD3 /* MakananTableViewCell.swift */,
+				A00222C920107B8500482DD3 /* MakananTableViewController.swift */,
+			);
+			path = IndoFoodApp;
+			sourceTree = "<group>";
+		};
+		A00222AD2010534C00482DD3 /* IndoFoodAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00222AE2010534C00482DD3 /* IndoFoodAppTests.swift */,
+				A00222B02010534C00482DD3 /* Info.plist */,
+			);
+			path = IndoFoodAppTests;
+			sourceTree = "<group>";
+		};
+		A00222B82010534C00482DD3 /* IndoFoodAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A00222B92010534C00482DD3 /* IndoFoodAppUITests.swift */,
+				A00222BB2010534C00482DD3 /* Info.plist */,
+			);
+			path = IndoFoodAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00222932010534800482DD3 /* IndoFoodApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00222BE2010534C00482DD3 /* Build configuration list for PBXNativeTarget "IndoFoodApp" */;
+			buildPhases = (
+				CB6429B901AAAFF166B3EDF6 /* [CP] Check Pods Manifest.lock */,
+				A00222902010534800482DD3 /* Sources */,
+				A00222912010534800482DD3 /* Frameworks */,
+				A00222922010534800482DD3 /* Resources */,
+				B991490D5F717DA70912C48A /* [CP] Embed Pods Frameworks */,
+				C63662E9499CCDE595567B48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndoFoodApp;
+			productName = IndoFoodApp;
+			productReference = A00222942010534800482DD3 /* IndoFoodApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00222A92010534C00482DD3 /* IndoFoodAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00222C12010534C00482DD3 /* Build configuration list for PBXNativeTarget "IndoFoodAppTests" */;
+			buildPhases = (
+				A00222A62010534C00482DD3 /* Sources */,
+				A00222A72010534C00482DD3 /* Frameworks */,
+				A00222A82010534C00482DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00222AC2010534C00482DD3 /* PBXTargetDependency */,
+			);
+			name = IndoFoodAppTests;
+			productName = IndoFoodAppTests;
+			productReference = A00222AA2010534C00482DD3 /* IndoFoodAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00222B42010534C00482DD3 /* IndoFoodAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00222C42010534C00482DD3 /* Build configuration list for PBXNativeTarget "IndoFoodAppUITests" */;
+			buildPhases = (
+				A00222B12010534C00482DD3 /* Sources */,
+				A00222B22010534C00482DD3 /* Frameworks */,
+				A00222B32010534C00482DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00222B72010534C00482DD3 /* PBXTargetDependency */,
+			);
+			name = IndoFoodAppUITests;
+			productName = IndoFoodAppUITests;
+			productReference = A00222B52010534C00482DD3 /* IndoFoodAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A002228C2010534800482DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Hilmy Corp.";
+				TargetAttributes = {
+					A00222932010534800482DD3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A00222A92010534C00482DD3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A00222932010534800482DD3;
+					};
+					A00222B42010534C00482DD3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A00222932010534800482DD3;
+					};
+				};
+			};
+			buildConfigurationList = A002228F2010534800482DD3 /* Build configuration list for PBXProject "IndoFoodApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A002228B2010534800482DD3;
+			productRefGroup = A00222952010534800482DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00222932010534800482DD3 /* IndoFoodApp */,
+				A00222A92010534C00482DD3 /* IndoFoodAppTests */,
+				A00222B42010534C00482DD3 /* IndoFoodAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00222922010534800482DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00222A42010534B00482DD3 /* LaunchScreen.storyboard in Resources */,
+				A00222A12010534B00482DD3 /* Assets.xcassets in Resources */,
+				A002229F2010534A00482DD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00222A82010534C00482DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00222B32010534C00482DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B991490D5F717DA70912C48A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IndoFoodApp/Pods-IndoFoodApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndoFoodApp/Pods-IndoFoodApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C63662E9499CCDE595567B48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndoFoodApp/Pods-IndoFoodApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB6429B901AAAFF166B3EDF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndoFoodApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00222902010534800482DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A002229C2010534A00482DD3 /* SecondViewController.swift in Sources */,
+				A00222982010534A00482DD3 /* AppDelegate.swift in Sources */,
+				A00222CE20107C3C00482DD3 /* AddViewController.swift in Sources */,
+				A00222CA20107B8500482DD3 /* MakananTableViewController.swift in Sources */,
+				A00222CC20107C3500482DD3 /* ViewMakananViewController.swift in Sources */,
+				A002229A2010534A00482DD3 /* FirstViewController.swift in Sources */,
+				A00222C820107B7700482DD3 /* MakananTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00222A62010534C00482DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00222AF2010534C00482DD3 /* IndoFoodAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00222B12010534C00482DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00222BA2010534C00482DD3 /* IndoFoodAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00222AC2010534C00482DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00222932010534800482DD3 /* IndoFoodApp */;
+			targetProxy = A00222AB2010534C00482DD3 /* PBXContainerItemProxy */;
+		};
+		A00222B72010534C00482DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00222932010534800482DD3 /* IndoFoodApp */;
+			targetProxy = A00222B62010534C00482DD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A002229D2010534A00482DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A002229E2010534A00482DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A00222A22010534B00482DD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00222A32010534B00482DD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00222BC2010534C00482DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A00222BD2010534C00482DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00222BF2010534C00482DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 035CEB88CFB18C5DEBC1442C /* Pods-IndoFoodApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = IndoFoodApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.IndoFoodApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00222C02010534C00482DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78ADC3A6458F8A36605A536 /* Pods-IndoFoodApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = IndoFoodApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.IndoFoodApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00222C22010534C00482DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = IndoFoodAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.IndoFoodAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndoFoodApp.app/IndoFoodApp";
+			};
+			name = Debug;
+		};
+		A00222C32010534C00482DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = IndoFoodAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.IndoFoodAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndoFoodApp.app/IndoFoodApp";
+			};
+			name = Release;
+		};
+		A00222C52010534C00482DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = IndoFoodAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.IndoFoodAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IndoFoodApp;
+			};
+			name = Debug;
+		};
+		A00222C62010534C00482DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C5A4RQ56;
+				INFOPLIST_FILE = IndoFoodAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hilmy-Fauzi.IndoFoodAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IndoFoodApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A002228F2010534800482DD3 /* Build configuration list for PBXProject "IndoFoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00222BC2010534C00482DD3 /* Debug */,
+				A00222BD2010534C00482DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00222BE2010534C00482DD3 /* Build configuration list for PBXNativeTarget "IndoFoodApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00222BF2010534C00482DD3 /* Debug */,
+				A00222C02010534C00482DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00222C12010534C00482DD3 /* Build configuration list for PBXNativeTarget "IndoFoodAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00222C22010534C00482DD3 /* Debug */,
+				A00222C32010534C00482DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00222C42010534C00482DD3 /* Build configuration list for PBXNativeTarget "IndoFoodAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00222C52010534C00482DD3 /* Debug */,
+				A00222C62010534C00482DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A002228C2010534800482DD3 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_IndoFoodApp {
+  umbrella header "Pods-IndoFoodApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
